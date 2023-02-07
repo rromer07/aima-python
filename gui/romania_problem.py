@@ -655,7 +655,8 @@ if __name__ == "__main__":
         padx=2,
         pady=2,
         relief=GROOVE)
-    next_button.pack(side=RIGHT)
+    next_button.pack()
+    # next_button.pack(side=RIGHT)
     reset_button = Button(
         frame1,
         width=6,
@@ -665,7 +666,8 @@ if __name__ == "__main__":
         padx=2,
         pady=2,
         relief=GROOVE)
-    reset_button.pack(side=RIGHT)
+    reset_button.pack()
+    # reset_button.pack(side=RIGHT)
     frame1.pack(side=BOTTOM)
     create_map(root)
     root.mainloop()
