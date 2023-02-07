@@ -9,6 +9,7 @@
 # Displays the first few individuals of the current generation
 
 import os.path
+import sys
 from tkinter import *
 from tkinter import ttk
 

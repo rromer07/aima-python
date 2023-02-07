@@ -1,4 +1,5 @@
 import os.path
+import sys
 from tkinter import *
 
 from games import minmax_decision, alpha_beta_player, random_player, TicTacToe

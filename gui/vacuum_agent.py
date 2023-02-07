@@ -1,4 +1,5 @@
 import os.path
+import sys
 from tkinter import *
 
 from agents import *
