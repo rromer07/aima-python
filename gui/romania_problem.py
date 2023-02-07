@@ -622,7 +622,6 @@ def reset_map():
 
 # TODO: Add more search algorithms in the OptionMenu
 if __name__ == "__main__":
-    global algo, start, goal, next_button
     root = Tk()
     root.title("Road Map of Romania")
     root.geometry("950x1150")
